@@ -1,1 +1,1 @@
-pod 'DayFlow', :git => "git://github.com/evadne/DayFlow.git"
+pod 'RSDayFlow', :git => "git://github.com/ruslanskorb/RSDayFlow.git"

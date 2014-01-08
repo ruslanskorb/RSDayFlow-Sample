@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'DayFlow-Sample' target in the 'DayFlow-Sample' project
+// Prefix header for all source files of the 'RSDayFlow-Sample' target in the 'RSDayFlow-Sample' project
 //
 
 #import <Availability.h>
