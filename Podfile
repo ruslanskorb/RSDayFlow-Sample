@@ -1,1 +1,3 @@
-pod 'RSDayFlow', :git => "git://github.com/ruslanskorb/RSDayFlow.git"
+platform :ios, '7.0'
+
+pod 'RSDayFlow', '~> 0.2.0'
