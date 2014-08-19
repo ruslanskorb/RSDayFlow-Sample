@@ -2,7 +2,7 @@
 
 > [RSDayFlow-Sample](https://github.com/ruslanskorb/RSDayFlow-Sample) is a slim fork of [DayFlow-Sample](https://github.com/evadne/DayFlow-Sample).
 
-Sample application for [RSDayFlow](https://github.com/ruslanskorb/RSDayFlow), an iOS 7 date picker with infinite scrolling.
+Sample application for [RSDayFlow](https://github.com/ruslanskorb/RSDayFlow), an iOS 7 Calendar with Infinite Scrolling.
 
 ## Play
 

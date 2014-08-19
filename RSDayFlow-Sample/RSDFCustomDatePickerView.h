@@ -1,5 +1,5 @@
 //
-// main.m
+// RSDFCustomDatePickerView.h
 //
 // Copyright (c) 2013 Evadne Wu, http://radi.ws/
 // Copyright (c) 2013-2014 Ruslan Skorb, http://lnkd.in/gsBbvb
@@ -23,11 +23,8 @@
 // THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
-#import "RSDFAppDelegate.h"
+#import "RSDFDatePickerView.h"
 
-int main (int argc, char *argv[]) {
-	@autoreleasepool {
-		return UIApplicationMain(argc, argv, nil, NSStringFromClass([RSDFAppDelegate class]));
-	}
-}
+@interface RSDFCustomDatePickerView : RSDFDatePickerView
+
+@end

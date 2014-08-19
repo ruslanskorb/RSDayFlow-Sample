@@ -1,5 +1,5 @@
 //
-// main.m
+// RSDFAppDelegate.m
 //
 // Copyright (c) 2013 Evadne Wu, http://radi.ws/
 // Copyright (c) 2013-2014 Ruslan Skorb, http://lnkd.in/gsBbvb
@@ -23,11 +23,23 @@
 // THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
 #import "RSDFAppDelegate.h"
+#import "RSDFDatePickerViewController.h"
 
-int main (int argc, char *argv[]) {
-	@autoreleasepool {
-		return UIApplicationMain(argc, argv, nil, NSStringFromClass([RSDFAppDelegate class]));
-	}
+@implementation RSDFAppDelegate
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    RSDFDatePickerViewController *datePickerVC = [[RSDFDatePickerViewController alloc] init];
+    UINavigationController *rootNC = [[UINavigationController alloc] initWithRootViewController:datePickerVC];
+	self.window.rootViewController = rootNC;
+    
+    [self.window makeKeyAndVisible];
+    
+    return YES;
 }
+
+@end

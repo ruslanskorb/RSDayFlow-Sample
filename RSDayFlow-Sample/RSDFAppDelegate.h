@@ -1,5 +1,5 @@
 //
-// main.m
+// RSDFAppDelegate.h
 //
 // Copyright (c) 2013 Evadne Wu, http://radi.ws/
 // Copyright (c) 2013-2014 Ruslan Skorb, http://lnkd.in/gsBbvb
@@ -24,10 +24,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RSDFAppDelegate.h"
 
-int main (int argc, char *argv[]) {
-	@autoreleasepool {
-		return UIApplicationMain(argc, argv, nil, NSStringFromClass([RSDFAppDelegate class]));
-	}
-}
+@interface RSDFAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end

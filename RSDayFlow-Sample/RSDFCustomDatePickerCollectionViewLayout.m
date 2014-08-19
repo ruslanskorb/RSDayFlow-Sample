@@ -1,5 +1,5 @@
 //
-// main.m
+// RSDFCustomDatePickerCollectionViewLayout.m
 //
 // Copyright (c) 2013 Evadne Wu, http://radi.ws/
 // Copyright (c) 2013-2014 Ruslan Skorb, http://lnkd.in/gsBbvb
@@ -23,11 +23,20 @@
 // THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
-#import "RSDFAppDelegate.h"
+#import "RSDFCustomDatePickerCollectionViewLayout.h"
 
-int main (int argc, char *argv[]) {
-	@autoreleasepool {
-		return UIApplicationMain(argc, argv, nil, NSStringFromClass([RSDFAppDelegate class]));
-	}
+@implementation RSDFCustomDatePickerCollectionViewLayout
+
+#pragma mark - Layout Atrributes
+
+- (CGSize)selfHeaderReferenceSize
+{
+    return (CGSize){ 320, 54 };
 }
+
+- (CGSize)selfItemSize
+{
+    return (CGSize){ 44, 60 };
+}
+
+@end
