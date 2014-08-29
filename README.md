@@ -4,9 +4,7 @@
 
 Sample application for [RSDayFlow](https://github.com/ruslanskorb/RSDayFlow), an iOS 7 Calendar with Infinite Scrolling.
 
-## Play
-
-Pull down the app and run `$ pod install` with [CocoaPods](http://cocoapods.org/). Open `RSDayFlow-Sample.xcworkspace` and hit Run.
+**This project has been incorporated into [RSDayFlow](https://github.com/ruslanskorb/RSDayFlow). Please follow them to have the latest version of the example.**
 
 ## Licensing
 
